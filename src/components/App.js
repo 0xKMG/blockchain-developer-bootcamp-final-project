@@ -30,9 +30,11 @@ class App extends Component {
       this.setState({tether})
       let tetherBalance = await tether.methods.balanceOf(this.state.account).call()
       this.setState({ tetherBalance: tetherBalance.toString()})
-    } else {
-      window.alert("tether contract not deployed to detect network")
-    }
+    } 
+    
+    // else {
+    //   window.alert("tether contract not deployed to detect network")
+    // }
 
       //LOAD RWD TOKEN
       const rwdTokenData = RWD.networks[networkId]
@@ -41,9 +43,11 @@ class App extends Component {
         this.setState({RWD})
         let rwdTokenBalance = await rwd.methods.balanceOf(this.state.account).call()
         this.setState({ rwdTokenBalance: rwdTokenBalance.toString()})
-      } else {
-        window.alert("Reward Token contract not deployed to detect network")
-      }
+      } 
+      
+      // else {
+      //   window.alert("Reward Token contract not deployed to detect network")
+      // }
 
           //Load DecentralBank
           const decentralBankData = DecentralBank.networks[networkId]
@@ -53,9 +57,11 @@ class App extends Component {
             let stakingBalance = await decentralBank.methods.stakingBalance(this.state.account).call()
             
             this.setState({ stakingBalance: stakingBalance.toString()})
-          } else {
-            window.alert("Token from contract not deployed to detect network")
-          }
+          } 
+          
+          // else {
+          //   window.alert("Token from contract not deployed to detect network")
+          // }
 
           this.setState({loading: false})
   }
