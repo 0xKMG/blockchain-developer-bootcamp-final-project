@@ -2,6 +2,7 @@
 
 ## Deployed version url:
 
+http://KMGwei.github.io/blockchain-developer-bootcamp-final-project 
 
 ## How to run this project locally:
 
@@ -9,7 +10,7 @@
 
 - Node.js >= v14
 - Truffle and Ganache
-- download or clone the repository from "https://github.com/xxx/blockchain-developer-bootcamp-final-project"
+- download or clone the repository from "https://github.com/KMGwei/blockchain-developer-bootcamp-final-project"
 
 ### Contracts
 
@@ -28,7 +29,7 @@ There are 2 ways to interact with this DApp.
 
 ### Interact through publicly deployed web interface
 
-Go to: <link>
+Go to: http://KMGwei.github.io/blockchain-developer-bootcamp-final-project
 If you do not have a Metamask browser extension, install Metamask in your browser. Connect your Metamask wallet and start interacting with the app.
 
 ### Interact through local network
