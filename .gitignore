@@ -1,4 +1,4 @@
 node_modules
-secrets.json
+secrets
 .DS_Store
 build
