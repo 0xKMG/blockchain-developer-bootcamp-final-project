@@ -2,7 +2,7 @@
 
 ## Deployed version url:
 
-http://KMGwei.github.io/blockchain-developer-bootcamp-final-project 
+ ~~http://0xkmg.github.io/blockchain-developer-bootcamp-final-project~~ (to be migrated to Goerli Testnet)
 
 ## How to run this project locally:
 
@@ -29,7 +29,7 @@ There are 2 ways to interact with this DApp.
 
 ### Interact through publicly deployed web interface
 
-http://KMGwei.github.io/blockchain-developer-bootcamp-final-project
+https://github.com/0xKMG/blockchain-developer-bootcamp-final-project
 
 ### Interact through local network
 
